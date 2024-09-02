@@ -6,6 +6,7 @@ import About from "./pages/About";
 import HomePage from "./pages/HomePage";
 import PageNotFound from "./pages/PageNotFound";
 import AppLayout from "./pages/AppLayout";
+import Login from "./pages/Login";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/login" element={<Login />} />
           <Route path="app" element={<AppLayout />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
